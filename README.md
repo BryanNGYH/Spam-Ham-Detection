@@ -28,10 +28,12 @@ To train the Machine Learning model, we preprocess and cleaned the data to ensur
  ![Spam Corpus](https://github.com/BryanNGYH/Spam-Ham-Detection/blob/master/images/spam_corpus.png?raw=true)
  
  ![Word Cloud of Spam Messages](https://github.com/BryanNGYH/Spam-Ham-Detection/blob/master/images/spam_wordcloud.png?raw=true)
+
+ ![Ham Corpus](https://github.com/BryanNGYH/Spam-Ham-Detection/blob/master/images/ham_corpus.png?raw=true)
  
  ![Word Cloud of Ham Messages](https://github.com/BryanNGYH/Spam-Ham-Detection/blob/master/images/ham_wordcloud.png?raw=true)
 
-![Ham Corpus](https://github.com/BryanNGYH/Spam-Ham-Detection/blob/master/images/ham_corpus.png?raw=true)
+
 ## Model Building
 80% of the dataset was used for training and the remaining 20% was used as test set.
 
@@ -67,7 +69,3 @@ On test sets, both models performed well too.
 In the last step, I used the pickled model and users can access and interact with the model directly through the simple Web Application.
 
 Users can type or copy-paste messages in the typing space and the messages will be processed and vectorized in the background before prediction.
-## Tools and Resources
-Python Version: 3.11\
-Packages: Pandas, Numpy, Sklearn, nltk, wordcloud, Matplotlib, Seaborn, re, Streamlit, Pickle\
-Dataset : [SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
