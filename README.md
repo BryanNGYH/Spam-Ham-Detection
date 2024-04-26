@@ -66,6 +66,6 @@ On test sets, both models performed well too.
 ## Web Application
 ![Web App](https://github.com/BryanNGYH/Spam-Ham-Detection/blob/master/images/Web%20App.png?raw=true)
 
-In the last step, I used the pickled model and users can access and interact with the model directly through the simple Web Application.
+In the last step, I used the pickled model and users can access and interact with the model directly through the simple Web Application that was built with Streamlit.
 
 Users can type or copy-paste messages in the typing space and the messages will be processed and vectorized in the background before prediction.
