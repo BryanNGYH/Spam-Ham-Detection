@@ -46,22 +46,22 @@ Here, I tested 2 classification models to predict spam messages and texts.
 ## Model Performance
 Both models had high scores on training sets.
 
-    1. Linear Support Vector Classifier - 1.0
-    2. Multinomial Naive Bayes - 0.99
+1. Linear Support Vector Classifier - 1.0
+2. Multinomial Naive Bayes - 0.99
 
 On test sets, both models performed well too.
 
-    1. Linear Support Vector Classifier:-
-        - Accuracy Score - 98.07
-        - Precision Score - 96.3
-        - Recall Score - 89.66
-        - F1 Score - 92.86
+1. Linear Support Vector Classifier:-
+     - Accuracy Score - 98.07
+     - Precision Score - 96.3
+     - Recall Score - 89.66
+     - F1 Score - 92.86
     
-    2. Multinomial Naive Bayes:-
-        - Accuracy Score - 97.58
-        - Precision Score - 88.96
-        - Recall Score - 94.48
-        - F1 Score - 91.64
+2. Multinomial Naive Bayes:-
+     - Accuracy Score - 97.58
+     - Precision Score - 88.96
+     - Recall Score - 94.48
+     - F1 Score - 91.64
 
 ## Web Application
 ![Web App](https://github.com/BryanNGYH/Spam-Ham-Detection/blob/master/images/Web%20App.png?raw=true)
