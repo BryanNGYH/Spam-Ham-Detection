@@ -17,10 +17,10 @@ To train the Machine Learning model, I preprocessed and cleaned the data to ensu
 - Used data visualization and discovered that the data is highly skewed towards ham(non-spam) messages
 - Label Encoded the 'spam' column
 - Transformed the 'message' column
-       - Replaced non-words characters into space
-       - Converted all texts into lowercase letter
-       - Split the texts
-       - Normalized the texts using Lemmatization
+  - Replaced non-words characters into space
+  - Converted all texts into lowercase letter
+  - Split the texts
+  - Normalized the texts using Lemmatization
 - Feature-engineered 'message' columns to extract the number of characters before and after lemmatization in a given sentence  
 - Generated wordcloud to visualize the frequent words that appeared in spam and ham messages
 - Vectorized the processed texts for model training
